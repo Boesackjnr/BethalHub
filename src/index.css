@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", var(--font-sans);
+
+  --color-brand-blue: #1e3a8a;
+  --color-brand-accent: #10b981; /* Emerald */
+  --color-brand-orange: #f97316; /* Orange */
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+.glass {
+  @apply bg-white/90 backdrop-blur-md border-b border-slate-200;
+}
+
+.card-base {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm transition-all duration-200;
+}
+
+.card-hover:hover {
+  @apply border-blue-300 shadow-md transform -translate-y-0.5;
+}
+
+.btn-primary {
+  @apply bg-brand-blue text-white font-semibold rounded-lg transition-colors hover:bg-blue-900;
+}
+
+.btn-accent {
+  @apply bg-brand-accent text-white font-semibold rounded-lg transition-colors hover:bg-emerald-600;
+}
+
+.input-base {
+  @apply bg-slate-100 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all;
+}
