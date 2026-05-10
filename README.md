@@ -6,6 +6,7 @@ Visit : bethalhub.netlify.app
 
 Bethal's Digital Opportunities Hub - A community platform for tenders, jobs, learnerships, and local business services.
 
-God Bless!!
+for business enquries: bosackjnr@gmail.com or follow the links.
 
+God Bless!!
 # boesackjnr.github.io | a life @1880ReaLs
