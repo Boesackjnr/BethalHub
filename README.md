@@ -1,20 +1,10 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Had an Idea, and Googled AI Studio it to create this Prototype. 
+maybe will come back to it later or when we have financial resources, or maybe not. but it's all god.
 
-# Run and deploy your AI Studio app
+God Bless!!
 
-This contains everything you need to run your app locally.
+Visit : bethalhub.netlify.app
 
-View your app in AI Studio: https://ai.studio/apps/7eda5db2-60f5-4a7e-b0a7-77d82859bcce
+Bethal's Digital Opportunities Hub - A community platform for tenders, jobs, learnerships, and local business services.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Delisani Mthethwa (Christopher D) | a life @1880REALS
